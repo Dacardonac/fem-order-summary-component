@@ -7,7 +7,7 @@ const Card = () => {
     <article className={styles.card}>
         <img
           className={styles['card__hero-img']}
-          src="/public/images/illustration-hero.svg"
+          src="/images/illustration-hero.svg"
           alt="Illustration Hero"
         />
       <h1 className={styles['card__title']}>Order Summary</h1>
