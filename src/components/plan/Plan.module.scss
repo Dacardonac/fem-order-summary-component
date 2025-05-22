@@ -1,15 +1,12 @@
 .plan {
   width: 279px;
+  height: 81px;
   display: flex;
   margin-bottom: 24px;
   padding: 17px 16px 16px 16px;
   background-color: var(--very-pale-blue);
   border-radius: 11px;
   align-items: center;
-
-  &__icon {
-
-  }
 
   &__info {
     display: flex;
@@ -45,4 +42,29 @@
         color: var(--bright-blue);
       }
     }
+
+  @media screen and (min-width: 1440px) {
+    width: 354px;
+    height: 98px;
+    margin-bottom: 32px;
+    padding: 25px 24px 25px 24px;
+
+    &__info {
+      width: 92px;
+      height: 48px;
+      margin: 0 94px 0 20px;
+
+      &-name {
+        font-size: 1rem;
+      }
+
+      &-price {
+        font-size: 1rem;
+      }
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
 }

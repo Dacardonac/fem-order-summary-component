@@ -48,4 +48,24 @@
       transition: all .2s ease;
     }
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 450px;
+    height: 697px;
+
+    &__title {
+      font-size: 28px;
+      margin: 45px 48px 17px 48px;
+    }
+
+    &__paragraph {
+      font-size: 1rem;
+      line-height: 26px;
+      margin: 0 48px 20px 48px;
+    }
+
+    &__cancel {
+      margin-top: 32px;
+    }
+  }
 }
